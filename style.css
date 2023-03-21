@@ -1,0 +1,47 @@
+@charset "utf-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Fasthand&display=swap');
+
+body {
+    font-family: 'Fasthand', cursive;
+    background: url(./img/bg.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.container {
+    width: 800px;
+    margin: 100px auto 0 auto;
+}
+
+h1 {
+    color: white;
+    font-size: 45px;
+    margin-bottom: 50px;
+}
+
+p {
+    color: white;
+}
+
+.ex {
+    font-size: 12px;
+}
+
+#input {
+    margin-top: 20px;
+    width: 100px;
+    height: 25px;
+}
+
+#button {
+    margin-left: 20px;
+    width: 60px;
+    height: 30px;
+    font-size: 16px;
+    color: white;
+    background: green;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
